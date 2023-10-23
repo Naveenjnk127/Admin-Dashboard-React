@@ -1,3 +1,5 @@
+import profile1 from "../assets/Profile images/profile2.jpg";
+
 export const UserData = [
   {
     name: "Jan",
@@ -68,7 +70,7 @@ export const userRows = [
   {
     id: 1,
     userName: "Jon Snow",
-    avatar: "../src/assets/Profile images/profile1.jpg",
+    avatar: {profile1},
     email: "jonsnow@gmail.com",
     status: "active",
     transaction: "$ 520.00",
