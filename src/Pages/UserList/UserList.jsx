@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import * as React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import "./userList.css";
+import "./UserList.css";
 import { DeleteOutline } from '@mui/icons-material';
 import { userRows } from '../../Data.js/UserData';
 import { Link } from 'react-router-dom';
