@@ -1,0 +1,138 @@
+.newProduct{
+    flex:5;
+    margin-left: 20px;
+}
+
+.newProduct-status{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* .newProduct-title{
+
+} */
+
+.newProduct-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newProduct-item{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.newProduct-item>label{
+    font-size: 16px;
+    color: rgb(131, 129, 129);
+    font-weight: 600;
+}
+
+.newProduct-item>input{
+    height: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.newProduct-item>input:hover{
+    border-bottom: 1px solid black;
+}
+
+.newProduct-item>input:focus{
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.newproductUpdate-imgFile{
+    border: 1px solid rgb(207, 207, 207);
+    width: 160px;
+    height: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+
+.productUpdate-buttons{
+    border: none none rgb(207, 207, 207);
+    background-color:blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    width: 185px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.productUpdate-buttons:hover{
+    border: none solid rgb(207, 207, 207);
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    width: 185px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.newProduct-create{
+    width: 185px;
+    height: 30px;
+    margin-left: 40px;
+    background-color:#09c519;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newProduct-create:hover{
+    width: 185px;
+    height: 30px;
+    margin-left: 40px;
+    background-color:rgb(5, 238, 25);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

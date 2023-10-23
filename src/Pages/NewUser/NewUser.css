@@ -1,0 +1,87 @@
+.newUser{
+    flex:5;
+    margin-left: 20px;
+}
+
+.newUser-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newUser-item{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.newUser-item>label{
+    font-size: 16px;
+    color: rgb(131, 129, 129);
+    font-weight: 600;
+}
+
+.newUser-item>input{
+    height: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.newUser-item>input:hover{
+    border-bottom: 1px solid black;
+}
+
+.newUser-item>input:focus{
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.newUser-gender > input{
+    
+    margin-top: 10px;
+}
+
+.newUser-gender>label{
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+.newUser-gender{
+    margin-right: 5px;
+    
+}
+
+.newUser-item>select{
+    height: 30px;
+    width: 70px;
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 5px;
+}
+
+.empty{
+    margin: 400px;
+}
+
+.newUser-create{
+   
+    width: 100px;
+    /* height: 10px; */
+    margin-left: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: none;
+}
