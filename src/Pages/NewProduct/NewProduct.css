@@ -72,10 +72,10 @@
 
 
 
-.productUpdate-buttons{
+.newproductUpdate-buttons{
     border: none none rgb(207, 207, 207);
-    background-color:blue;
-    color: white;
+    /* background-color:rgb(10, 10, 199); */
+    color:black;
     font-size: 15px;
     font-weight: 700;
     width: 185px;
@@ -86,7 +86,7 @@
     margin-left: 40px;
 }
 
-.productUpdate-buttons:hover{
+.newproductUpdate-buttons:hover{
     border: none solid rgb(207, 207, 207);
     background-color: blue;
     color: white;

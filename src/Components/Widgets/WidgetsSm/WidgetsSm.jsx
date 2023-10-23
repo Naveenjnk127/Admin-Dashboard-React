@@ -2,6 +2,12 @@
 import React from 'react';
 import "./WidgetsSm.css";
 import { Visibility } from '@mui/icons-material';
+import profile1 from "../../../assets/ProfileImages/profile1.jpg";
+import profile2 from "../../../assets/ProfileImages/profile2.jpg";
+import profile3 from "../../../assets/ProfileImages/profile3.jpg";
+import profile4 from "../../../assets/ProfileImages/profile4.jpg";
+import profile5 from "../../../assets/ProfileImages/profile5.jpg";
+
 
 export default function WidgetsSm() {
   return (
@@ -9,7 +15,7 @@ export default function WidgetsSm() {
         <span className="widgetSm-title">New Join Members</span>
         <ul className="widgetSm-list">
             <li className="widgetSm-listItem">
-                <img src="../src/assets/Profile images/profile1.jpg" alt="" className="widgetSm-img" />
+                <img src={profile1} alt="" className="widgetSm-img" />
                 <div className="widgetSm-user">
                     <span className="widgetSm-userName">Rajkumar</span>
                     <span className="widgetSm-userTitle">Software Developer</span>
@@ -21,7 +27,7 @@ export default function WidgetsSm() {
             </li>
 
             <li className="widgetSm-listItem">
-                <img src="../src/assets/Profile images/profile2.jpg" alt="" className="widgetSm-img" />
+                <img src={profile2} alt="" className="widgetSm-img" />
                 <div className="widgetSm-user">
                     <span className="widgetSm-userName">Ajay</span>
                     <span className="widgetSm-userTitle">Java Developer</span>
@@ -33,7 +39,7 @@ export default function WidgetsSm() {
             </li>
 
             <li className="widgetSm-listItem">
-                <img src="../src/assets/Profile images/profile4.jpg" alt="" className="widgetSm-img" />
+                <img src={profile3} alt="" className="widgetSm-img" />
                 <div className="widgetSm-user">
                     <span className="widgetSm-userName">Sree</span>
                     <span className="widgetSm-userTitle">LowCode Developer</span>
@@ -45,7 +51,7 @@ export default function WidgetsSm() {
             </li>
 
             <li className="widgetSm-listItem">
-                <img src="../src/assets/Profile images/profile5.jpg" alt="" className="widgetSm-img" />
+                <img src={profile4} alt="" className="widgetSm-img" />
                 <div className="widgetSm-user">
                     <span className="widgetSm-userName">Jagan</span>
                     <span className="widgetSm-userTitle">React Developer</span>
@@ -57,7 +63,7 @@ export default function WidgetsSm() {
             </li>
 
             <li className="widgetSm-listItem">
-                <img src="../src/assets/Profile images/profile6.jpg" alt="" className="widgetSm-img" />
+                <img src={profile5} alt="" className="widgetSm-img" />
                 <div className="widgetSm-user">
                     <span className="widgetSm-userName">Kowshik</span>
                     <span className="widgetSm-userTitle">Angular Developer</span>

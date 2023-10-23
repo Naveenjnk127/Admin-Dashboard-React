@@ -6,7 +6,6 @@ import { DeleteOutline } from '@mui/icons-material';
 import { userRows } from '../../Data.js/UserData';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-
 export default function UserList(){
 
     const [data,setData] =useState(userRows);

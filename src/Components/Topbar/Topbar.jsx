@@ -1,10 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./Topbar.css";
-import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
-import SettingsIcon from '@mui/icons-material/Settings';
-import LanguageIcon from '@mui/icons-material/Language';
-// import {SettingsIcon,NotificationsNoneIcon,LanguageIcon} from '@mui/icons-material/';
+import { Language, NotificationsNoneOutlined, Settings } from "@mui/icons-material";
+import admin from "../../assets/admin.png"
 
 
 export default function Topbar() {
@@ -17,18 +15,18 @@ export default function Topbar() {
         </div>
         <div className="topRight">
           <div className="topbar-IconContainer">
-            <NotificationsNoneIcon />
+            <NotificationsNoneOutlined />
             <span className="topIconBadge">2</span>
           </div>
           <div className="topbar-IconContainer">
-            <LanguageIcon />
+            <Language />
             <span className="topIconBadge">3</span>
           </div>
           <div className="topbar-IconContainer">
-            <SettingsIcon />
+            <Settings />
             <span className="topIconBadge">4</span>
           </div>
-          <img src="../src/assets/admin.png" alt="" className="topAvatar" />
+          <img src={admin} alt="" className="topAvatar" />
         </div>
       </div>
     </div>

@@ -9,6 +9,7 @@ import {
   PermIdentity,
   PhoneAndroidOutlined,
   Publish,} from "@mui/icons-material";
+  import profile1 from "../../assets/ProfileImages/profile1.jpg"
 
 export default function User() {
   return (
@@ -23,7 +24,9 @@ export default function User() {
         <div className="userShow">
           <div className="userShow-top">
             <img
-              src="../src/assets/Profile images/profile1.jpg"
+              src={
+                profile1
+              }
               alt=""
               className="user-showImg"
             />
@@ -108,7 +111,7 @@ export default function User() {
               <div className="userUpdate-upload">
                 <img
                   className="userUpdate-img"
-                  src="../src/assets/Profile images/profile1.jpg"
+                  src={profile1}
                   alt=""
                 />
                 {/* <label htmlFor="file">

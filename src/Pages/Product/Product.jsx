@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Charts from "../../Components/Charts/Charts";
 import { productData } from "../../Data.js/UserData";
 import { Publish } from "@mui/icons-material";
+import product2 from "../../assets/ProfileImages/product2.jpg"
 
 export default function Product() {
   return (
@@ -27,7 +28,7 @@ export default function Product() {
         <div className="product-topRight">
           <div className="product-infoTop">
             <img
-              src="../src/assets/Profile images/product2.jpg"
+              src={product2}
               alt=""
               className="product-img"
             />
@@ -77,7 +78,7 @@ export default function Product() {
             <div className="productUpdate-upload">
               <img
                 className="productUpdate-img"
-                src="../src/assets/Profile images/product2.jpg"
+                src={product2}
                 alt=""
               />
               <div className="productUpdate-buttons">

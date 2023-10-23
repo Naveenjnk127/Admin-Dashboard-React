@@ -1,15 +1,15 @@
-.product{
+.product {
     flex: 5;
     padding: 20px;
 }
 
-.product-titleContainer{
+.product-titleContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.product-addButton{
+.product-addButton {
     width: 80px;
     border: none;
     padding: 5px;
@@ -20,58 +20,59 @@
     font-size: 16px;
 }
 
-.product-img{
+.product-img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.product-chart{
+.product-chart {
 
     border-radius: 5px;
 }
 
-.product-top{
+.product-top {
     display: flex;
 }
 
-.product-topLeft,.product-topRight{
+.product-topLeft,
+.product-topRight {
     flex: 1;
-    
+
 }
 
-.product-topLeft{
+.product-topLeft {
     border-width: 0;
     border-radius: 50px;
 }
 
-.product-topRight{
+.product-topRight {
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
-    -webkit-box-shadow: 3px 2px 8px 0px rgba(140,138,140,0.66);
-    -moz-box-shadow: 3px 2px 8px 0px rgba(140,138,140,0.66);
-    box-shadow: 2px 2px 8px 0px rgba(140,138,140,0.66);
+    -webkit-box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    -moz-box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    box-shadow: 2px 2px 8px 0px rgba(140, 138, 140, 0.66);
 
 }
 
-.product-infoTop{
+.product-infoTop {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.product-name{
+.product-name {
     font-weight: 700;
     font-size: 20px;
 }
 
-.product-infoBottom{
+.product-infoBottom {
     margin-top: 10px;
 }
 
-.product-infoItem{
+.product-infoItem {
     margin-top: 12px;
     width: 150px;
     display: flex;
@@ -79,47 +80,47 @@
     justify-content: space-between;
 }
 
-.product-infoKey{
+.product-infoKey {
     font-weight: 500;
     font-size: 16px;
 }
 
-.product-infoValue{
+.product-infoValue {
     color: rgb(66, 66, 66);
     font-weight: 400;
 }
 
-.product-bottom{
-    
+.product-bottom {
+
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
-    -webkit-box-shadow: 3px 2px 8px 0px rgba(140,138,140,0.66);
-    -moz-box-shadow: 3px 2px 8px 0px rgba(140,138,140,0.66);
-    box-shadow: 2px 2px 8px 0px rgba(140,138,140,0.66);   
+    -webkit-box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    -moz-box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    box-shadow: 2px 2px 8px 0px rgba(140, 138, 140, 0.66);
 }
 
-.product-form{
+.product-form {
     display: flex;
     /* align-items: center; */
     flex-direction: row;
     justify-content: space-between;
 }
 
-.product-formLeft{
+.product-formLeft {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
     margin-left: 100px;
 }
 
-.product-formLeft>label{
+.product-formLeft>label {
     color: #3e3636;
     font-size: 15px;
     font-weight: 600;
 }
 
-.product-infoName{
+.product-infoName {
     width: 350px;
     border: none;
     border-bottom: 1px solid gray;
@@ -127,16 +128,16 @@
     height: 20px;
 }
 
-.product-infoStatus{
+.product-infoStatus {
     width: 100px;
     border-radius: 5px;
 }
 
-.product-infoStatus:focus{
+.product-infoStatus:focus {
     outline: none;
 }
 
-.product-infoName:focus{
+.product-infoName:focus {
     width: 350px;
     border: none;
     border-bottom: 1px solid black;
@@ -145,7 +146,7 @@
     height: 20px;
 }
 
-.productUpdate-img{
+.productUpdate-img {
     width: 200px;
     height: 200px;
     margin-right: 10px;
@@ -153,14 +154,14 @@
     object-fit: cover;
 }
 
-.productUpdate-upload{
+.productUpdate-upload {
     display: flex;
     flex-direction: row;
     gap: 10px;
     margin-right: -10px;
 }
 
-.productUpdate-buttons{
+.productUpdate-buttons {
     margin-right: 30px;
     width: 200px;
     height: 200px;
@@ -170,7 +171,7 @@
     gap: 10px;
 }
 
-.productUpdate-imgFile{
+.productUpdate-imgFile {
     border: 1px solid rgb(207, 207, 207);
     width: 160px;
     height: 10px;
@@ -185,7 +186,22 @@
     cursor: pointer;
 }
 
-.productUpdate-button{
+.productUpdate-imgFile:hover {
+
+    border: 1px solid rgb(207, 207, 207);
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    width: 160px;
+    height: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+
+.productUpdate-button {
     border: 1px solid rgb(207, 207, 207);
     background-color: #09c519;
     color: white;

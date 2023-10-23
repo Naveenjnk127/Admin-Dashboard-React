@@ -1,6 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "./WidgetsLg.css";
+import profile1 from "../../../assets/ProfileImages/profile1.jpg";
+import profile2 from "../../../assets/ProfileImages/profile2.jpg";
+import profile3 from "../../../assets/ProfileImages/profile3.jpg";
+import profile4 from "../../../assets/ProfileImages/profile4.jpg";
+import profile5 from "../../../assets/ProfileImages/profile5.jpg";
 
 export default function WidgetsLg() {
 
@@ -21,7 +26,7 @@ export default function WidgetsLg() {
         </tr>
         <tr className="widgetLg-tr">
             <td className="widgetLg-user">
-                <img src="../src/assets/Profile images/profile1.jpg" alt="" className="widgetLg-img"/>
+                <img src={profile1} alt="" className="widgetLg-img"/>
                 <span className="widgetLg-name">Ajay</span>
             </td>
             <td className="widgetLg-date">22 Oct 2023</td>
@@ -32,7 +37,7 @@ export default function WidgetsLg() {
         </tr>
         <tr className="widgetLg-tr">
             <td className="widgetLg-user">
-                <img src="../src/assets/Profile images/profile2.jpg" alt="" className="widgetLg-img"/>
+                <img src={profile2} alt="" className="widgetLg-img"/>
                 <span className="widgetLg-name">Ajay</span>
             </td>
             <td className="widgetLg-date">22 Oct 2023</td>
@@ -43,7 +48,7 @@ export default function WidgetsLg() {
         </tr>
         <tr className="widgetLg-tr">
             <td className="widgetLg-user">
-                <img src="../src/assets/Profile images/profile3.jpg" alt="" className="widgetLg-img"/>
+                <img src={profile3} alt="" className="widgetLg-img"/>
                 <span className="widgetLg-name">Jaganath</span>
             </td>
             <td className="widgetLg-date">22 Oct 2023</td>
@@ -54,7 +59,7 @@ export default function WidgetsLg() {
         </tr>
         <tr className="widgetLg-tr">
             <td className="widgetLg-user">
-                <img src="../src/assets/Profile images/profile4.jpg" alt="" className="widgetLg-img"/>
+                <img src={profile4} alt="" className="widgetLg-img"/>
                 <span className="widgetLg-name">Naveen</span>
             </td>
             <td className="widgetLg-date">22 Oct 2023</td>

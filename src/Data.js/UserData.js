@@ -1,4 +1,15 @@
-import profile1 from "../assets/Profile images/profile2.jpg";
+import profile1 from "../assets/ProfileImages/profile1.jpg";
+import profile2 from "../assets/ProfileImages/profile2.jpg";
+import profile3 from "../assets/ProfileImages/profile3.jpg";
+import profile4 from "../assets/ProfileImages/profile4.jpg";
+import profile5 from "../assets/ProfileImages/profile5.jpg";
+import profile6 from "../assets/ProfileImages/profile6.jpg";
+import product1 from "../assets/ProfileImages/product1.jpg";
+import product2 from "../assets/ProfileImages/product2.jpg";
+import product3 from "../assets/ProfileImages/product3.jpg";
+import product4 from "../assets/ProfileImages/product4.jpg";
+import product5 from "../assets/ProfileImages/product5.jpg";
+import product6 from "../assets/ProfileImages/product6.jpg";
 
 export const UserData = [
   {
@@ -70,7 +81,7 @@ export const userRows = [
   {
     id: 1,
     userName: "Jon Snow",
-    avatar: {profile1},
+    avatar: profile1,
     email: "jonsnow@gmail.com",
     status: "active",
     transaction: "$ 520.00",
@@ -78,7 +89,7 @@ export const userRows = [
   {
     id: 2,
     userName: "Walter White",
-    avatar: "../src/assets/Profile images/profile2.jpg",
+    avatar: profile2,
     email: "heisenberg@gmail.com",
     status: "active",
     transaction: "$ 1200.00",
@@ -86,7 +97,7 @@ export const userRows = [
   {
     id: 3,
     userName: "Elliot Alderson",
-    avatar: "../src/assets/Profile images/profile3.jpg",
+    avatar: profile3,
     email: "mrrobot@gmail.com",
     status: "declined",
     transaction: "$ 180.00",
@@ -94,7 +105,7 @@ export const userRows = [
   {
     id: 4,
     userName: "Hugh Hefner",
-    avatar: "../src/assets/Profile images/profile4.jpg",
+    avatar: profile4,
     email: "americanboy@gmail.com",
     status: "active",
     transaction: "$ 620.00",
@@ -102,7 +113,7 @@ export const userRows = [
   {
     id: 5,
     userName: "Ragnor",
-    avatar: "../src/assets/Profile images/profile5.jpg",
+    avatar: profile5,
     email: "kingofvikings@gmail.com",
     status: "pending",
     transaction: "$ 1.00",
@@ -110,7 +121,7 @@ export const userRows = [
   {
     id: 6,
     userName: "Jony Test",
-    avatar: "../src/assets/Profile images/profile6.jpg",
+    avatar: profile6,
     email: "jonytest@gmail.com",
     status: "active",
     transaction: "$ 100.00",
@@ -121,7 +132,7 @@ export const productRows = [
   {
     id: 1,
     productName: "Mobiles",
-    avatar: "../src/assets/Profile images/product1.jpg",
+    avatar: product1,
     stock: 27,
     status: "active",
     price: "$ 720.00",
@@ -129,7 +140,7 @@ export const productRows = [
   {
     id: 2,
     productName: "Headphone",
-    avatar: "../src/assets/Profile images/product2.jpg",
+    avatar: product2,
     stock: 65,
     status: "active",
     price: "$ 120.00",
@@ -137,7 +148,7 @@ export const productRows = [
   {
     id: 3,
     productName: "TV",
-    avatar: "../src/assets/Profile images/product3.jpg",
+    avatar: product3,
     stock: 120,
     status: "active",
     price: "$ 400.00",
@@ -145,7 +156,7 @@ export const productRows = [
   {
     id: 4,
     productName: "Radio",
-    avatar: "../src/assets/Profile images/product4.jpg",
+    avatar: product4,
     stock: 53,
     status: "active",
     price: "$ 80.00",
@@ -153,7 +164,7 @@ export const productRows = [
   {
     id: 5,
     productName: "Camera",
-    avatar: "../src/assets/Profile images/product5.jpg",
+    avatar: product5,
     stock: 81,
     status: "active",
     price: "$ 520.00",
@@ -161,7 +172,7 @@ export const productRows = [
   {
     id: 6,
     productName: "Airpods",
-    avatar: "../src/assets/Profile images/product6.jpg",
+    avatar: product6,
     stock: 123,
     status: "active",
     price: "$ 200.00",

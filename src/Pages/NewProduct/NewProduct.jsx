@@ -30,9 +30,9 @@ export default function NewProduct() {
 
         
       </form>
-      <div className="productUpdate-buttons">
+      <div className="newproductUpdate-buttons">
         <label htmlFor="file" className="newproductUpdate-imgFile">
-          <Publish className="productupdate-imgUploader" />
+          <Publish className="newproductupdate-imgUploader" />
           <a>Add new image</a>
           <input type="file" id="file" style={{ display: "none" }} />
         </label>
