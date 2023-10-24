@@ -62,18 +62,18 @@ export const UserData = [
   },
 ];
 
-export const productData =[
+export const productData = [
   {
     name: "Jan",
-    "Sales": 4000,
+    Sales: 4000,
   },
   {
     name: "Feb",
-    "Sales": 3000,
+    Sales: 3000,
   },
   {
     name: "March",
-    "Sales": 2000,
+    Sales: 2000,
   },
 ];
 
@@ -178,3 +178,55 @@ export const productRows = [
     price: "$ 200.00",
   },
 ];
+
+export const piechartData = [
+  { name: "Mobile Phones", value: 400 , img : product1 },
+  { name: "Headphones", value: 300 ,img: product2},
+  { name: "Television", value: 300 ,img: product3 },
+  { name: "Radio", value: 200 ,img: product4},
+];
+
+export const transactiondata =[
+  {
+    customer:"Ajay",
+    img: profile1,
+    date:"22 Oct 2023",
+    amount:"$12.00",
+    status:"Declined"
+  },
+  {
+    customer:"Jagan",
+    img: profile2,
+    date:"02 Jun 2023",
+    amount:"$427.00",
+    status:"Approved"
+  },
+  {
+    customer:"Sree",
+    img: profile3,
+    date:"17 Oct 2023",
+    amount:"$5.00",
+    status:"Pending"
+  },
+  {
+    customer:"Raj",
+    img: profile4,
+    date:"08 Oct 2023",
+    amount:"$12.00",
+    status:"Approved"
+  },
+  {
+    customer:"Sushmitha",
+    img: profile3,
+    date:"14 Oct 2023",
+    amount:"$127.00",
+    status:"Pending"
+  },
+  {
+    customer:"kowshik",
+    img: profile4,
+    date:"22 Oct 2023",
+    amount:"$17.00",
+    status:"Approved"
+  },
+]

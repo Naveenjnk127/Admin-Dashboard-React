@@ -39,14 +39,18 @@ export default function Sidebar(){
                   Products
                 </li>
               </Link>
-              <li className="sidebar-item">
+              <Link to="/transactions" className="link">
+                <li className="sidebar-item">
                 <AttachMoney className="sidebar-icon" />
                 Transactions
               </li>
-              <li className="sidebar-item">
+              </Link>
+              <Link to="/reports" className="link">
+                <li className="sidebar-item">
                 <Equalizer className="sidebar-icon" />
                 Reports
               </li>
+              </Link>
             </ul>
 
             <h3 className="sidebar-title">Notifications</h3>
