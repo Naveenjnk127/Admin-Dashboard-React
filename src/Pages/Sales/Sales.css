@@ -1,0 +1,65 @@
+.sales{
+    flex: 5;
+    margin: 20px;
+}
+
+.sales{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -5px;
+}
+
+.sales-item{
+    width: 400px;
+    margin: 2px 20px;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0fbff;
+    -webkit-box-shadow: 3px 2px 8px 0px rgba(140,138,140,0.66);
+    -moz-box-shadow: 3px 2px 8px 0px rgba(140,138,140,0.66);
+    box-shadow: 3px 2px 8px 0px rgba(140,138,140,0.66);
+}
+
+.sales-title{
+    font-size: 20px;
+    font-weight:600;
+}
+
+.sales-money-container{
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.sales-money{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sales-money-rate{
+    display: flex;
+    align-items: center;
+    
+}
+
+.sales-icon{
+    font-size: 20px;
+    margin-left: 5px;
+    color: green;
+}
+
+.sales-icon.negative{
+    font-size: 20px;
+    margin-left: 5px;
+    color: red;
+}
+
+.sales-sub{
+    color: gray;
+}

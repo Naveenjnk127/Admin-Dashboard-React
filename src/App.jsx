@@ -12,6 +12,10 @@ import Product from './Pages/Product/Product';
 import NewProduct from './Pages/NewProduct/NewProduct';
 import Reports from './Pages/Reports/Reports';
 import Transactions from './Pages/Transactions/Transactions';
+import Messages from './Pages/Messages/Messages';
+import Analytics from './Pages/Analytics/Analytics';
+import Sales from './Pages/Sales/Sales';
+import ComingSoon from './Pages/ComingSoon/ComingSoon';
 
 function App() {
   
@@ -30,6 +34,14 @@ function App() {
           <Route path="/newProduct" element={<NewProduct />} />
           <Route path='/reports' element={<Reports />}/>
           <Route path='/transactions' element={<Transactions />} />
+          <Route path='/messages' element={<Messages />} />
+          <Route path='/analytics' element={<Analytics />}/>
+          <Route path='/sales' element={<Sales />}/>
+          <Route path='/mail' element={<ComingSoon/>}/>
+          <Route path='/feedback' element={<ComingSoon/>}/>
+          <Route path='/manage' element={<ComingSoon/>}/>
+          <Route path='/analysis' element={<ComingSoon/>}/>
+          <Route path='/report' element={<ComingSoon/>}/>
         </Routes>
       </div>
     </Router>

@@ -1,0 +1,18 @@
+.searchbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.searchbar-input{
+    border-radius: 5px;
+    outline: 1px solid rgb(209, 199, 199); 
+    width: 220px;
+}
+
+.searchbar-button{
+    border-radius: 5px;
+    outline: 1px solid rgb(209, 199, 199);
+    cursor: pointer;
+}

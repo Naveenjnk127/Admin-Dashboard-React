@@ -1,0 +1,154 @@
+.messages {
+    flex: 5;
+    margin: 20px;
+}
+
+.messages-tab {
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    -moz-box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    padding: 20px;
+    gap: 20px;
+}
+
+.messages-tabLeft {
+    flex: 2;
+    -webkit-box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    -moz-box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    padding: 20px;
+}
+
+.messages-tabRight {
+    flex: 5;
+    -webkit-box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    -moz-box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    box-shadow: 3px 2px 8px 0px rgba(140, 138, 140, 0.66);
+    padding: 20px;
+}
+
+.messages-userList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.messages-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.messags-userInfo {
+    border-radius: 5px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.messages-user {
+    margin: 20px;
+}
+
+.messages-name {
+    font-weight: 600;
+}
+
+.messags-userInfo:hover {
+    background-color: rgb(227, 255, 255);
+    width: 270px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.messages-righttopbar {
+    border: 1px solid rgba(193, 252, 250, 0.75);
+    box-shadow: 2px 2px 3px 0px rgba(193, 252, 250, 0.75);
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(193, 252, 250, 0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(193, 252, 250, 0.75);
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.messages-rightIconContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.messages-part{
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(193, 252, 250, 0.75);
+    box-shadow: 2px 2px 3px 0px rgba(193, 252, 250, 0.75);
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(193, 252, 250, 0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(193, 252, 250, 0.75);
+}
+
+.messages-rightbottombar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 680px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 350px;
+    bottom: 0;
+    background-color: rgb(213, 213, 213);
+}
+
+.messages-sendcontainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.messages-send{
+    border-radius: 5px;
+    color:white;
+    background-color: rgba(92, 76, 232, 0.87);
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 60px;
+    height: 20px;
+}
+
+.messages-send:hover{
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(18, 18, 245);
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.messages-rightInput{
+    width: 400px;
+    border-radius: 5px;
+}
+
+.messages-rightname{
+    font-weight: 600;
+}
